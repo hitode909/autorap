@@ -13,14 +13,14 @@ Full Automated Rap Singer
 
 ```
 % bundle install
-% HATENA_KEYWORD_CSV_PATH=***.csv YAHOO_API_TOKEN=*** bundle exec -- ruby autorap.rb '退屈な午後には全自動ラップで歌おう'
-退屈な午後には全自動ラップで歌おう
-白鶴な御所には龍-RON-始動ラップで歌おう
-白鶴な処置にはシュウ-RON-始動アンプで歌おう
-竹鶴な処置にはRyu-RON-DOWALampで歌おう
-竹鶴な処置にはRyu-RON-DOWALampで歌おう
-つるぺたな閾値にはRyu-RON-DOWALampで野音う
-Tunoa Luiぺたな空き地にはRyu-RON-DOWALampで野音う
-Tunoa Luiぺ苗、なえ径莉奈にはRyu-RON-DOWALampでneonう
-Tunoa Luiぺ苗、なえノイ！莉奈にはRyu-RON-DOWALampでneonう
+% HATENA_KEYWORD_CSV_PATH=***.csv \
+  YAHOO_API_TOKEN=*** \
+  bundle exec -- ruby autorap.rb 'びしょ濡れミステリーハンター，お得なショッピングセンター，甘いねポッピングシャワー'
+びしょ濡れミステリーハンター，お得なショッピングセンター，甘いねポッピングシャワー
+びしょ濡れミステリーハンター，MUCなショッピングポーター，目眩ねミサッピングYou were...
+的外れミステリーハンター，MUCなジャンピングカーター，玉井ねミサッピングYou were...
+車庫入れミステリーデンター，MUCなストンピングCheetah，互生ねミサッピングYou were...
+jyaco喜連ミステリーデンター，MUCなストンピングCheetah，互生ねミサッピングYou were...
+jyaco喜連ミステリーCTB，MUCなジャンピングCheetah，互生ねミサッピングYou were...
+jyacoセガレBatteryCTB，MUCなクリッピングCheetah，互生ねミサッピングYou were...
 ```
