@@ -50,7 +50,7 @@ module AutoRap
     end
 
     def words_like_last_n(word, n)
-      last_n = Regexp.quote(word[-n..-1])
+      last_n = /#{Regexp.quote(word[-n..-1])}$/
       same_length = @words.select{|w| w.yomi.length == word.length && w.yomi != word }
       same_length.select{|w| w.yomi.match(last_n) }
     end
